@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Century Gothic;
+
+}
+header{
+    background-image: url("maldives.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top:25px;
+
+}
+ul li {
+    display:inline-block;
+   }
+
+ul li a {
+    text-decoration: none;
+    color:#fff;
+    padding:5px 20px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+    
+}   
+ul li a:hover{
+    background-color:#fff;
+    color:#000;
+}
+ul li.active a{
+    background-color:#fff;
+    color:#000;
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top:30%;
+    left:38%;
+    transform: translate(-50% -50%);
+}
+.title h1{
+    color:#fff;
+    font-size: 90px;
+    font-family:cursive;
+}
+.button{
+    position:absolute;
+    margin-top:25px;
+    transform:translate(-50% -50%)
+}
+.btn{
+    border:1px solid #fff;
+    padding:10px 30px;
+    color:#fff;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.6s ease;
+    
+}
+.btn:hover{
+    background-color: ivory;
+    color:#000
+}
+
+/* home html*/
+.body{
+    background-color:rgb(4,29,49);
+    
+    
+    
+    
+}
+.ab{
+    color:white;
+    background-color:rgb(8,48,80);
+    border-collapse: collapse;
+    font-size: 16px;
+    font-family: serif;
+    margin:auto;
+    width:100%;
+    padding: 3px;
+  
+    
+    
+    
+    
+}
+th{
+    height:70px;
+}
+.first h1{
+    text-align: center;
+    color:white;
+
+}
